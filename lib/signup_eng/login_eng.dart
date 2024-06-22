@@ -18,7 +18,7 @@ class LogInEngineer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    //final AuthCubit authCubit = BlocProvider.of<AuthCubit>(context);
+
     return BlocConsumer<AuthCubit, AuthStates_eng>(
         //  create: (context) => AuthCubit(),
         //  child: BlocConsumer<AuthCubit, AuthStates>(
